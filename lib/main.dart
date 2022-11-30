@@ -15,7 +15,7 @@ Future<void> main() async {
   // aquí nos conectamos a los servicios de
   // firebase
   await Firebase.initializeApp(
-      // name: 'com.example.f_chat_template',
+      name: 'com.example.f_chat_template',
 
       options: const FirebaseOptions(
     apiKey: Configuration.apiKey,
