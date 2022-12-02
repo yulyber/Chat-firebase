@@ -3,9 +3,9 @@
 Funcional con Android y Web
 
 Eduardo Moreno,
-Yuly Berbesi,
-Barbara y
-Diana
+Yuly Berbesi.
+
+
 
 Solución:
 
