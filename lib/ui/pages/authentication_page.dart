@@ -35,7 +35,7 @@ class AuthenticationPage extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Colors.blue.shade100,
+                        color: Color.fromARGB(255, 70, 73, 75),
                         borderRadius:
                             const BorderRadius.all(Radius.circular(10))),
                     child: Column(children: [
@@ -43,7 +43,16 @@ class AuthenticationPage extends StatelessWidget {
                         padding: const EdgeInsets.all(8.0),
                         child: ElevatedButton(
                           onPressed: signIn,
-                          child: const Text("Crear los tres usuarios"),
+                          child: const Text(
+                            "Crear los tres usuarios",
+                            style: TextStyle(
+                                color: Color.fromARGB(255, 28, 28, 28),
+                                fontWeight: FontWeight.bold,
+                                fontSize: 15),
+                          ),
+                          style: ElevatedButton.styleFrom(
+                            primary: Color.fromARGB(255, 222, 221, 221),
+                          ),
                         ),
                       ),
                       const Padding(
@@ -65,21 +74,49 @@ class AuthenticationPage extends StatelessWidget {
                     child: Container(
                       width: double.infinity,
                       decoration: BoxDecoration(
-                          color: Colors.blue.shade100,
+                          color: Color.fromARGB(255, 70, 73, 75),
                           borderRadius:
                               const BorderRadius.all(Radius.circular(10))),
                       child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceAround,
                           children: [
                             ElevatedButton(
-                                onPressed: () => login('a@a.com'),
-                                child: const Text("Ingresar con usuario A")),
+                              onPressed: () => login('a@a.com'),
+                              child: const Text(
+                                "Ingresar con usuario A",
+                                style: TextStyle(
+                                    color: Color.fromARGB(255, 28, 28, 28),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15),
+                              ),
+                              style: ElevatedButton.styleFrom(
+                                primary: Color.fromARGB(255, 222, 221, 221),
+                              ),
+                            ),
                             ElevatedButton(
                                 onPressed: () => login('b@b.com'),
-                                child: const Text("Ingresar con usuario B")),
+                                child: const Text("Ingresar con usuario B",
+                                style: TextStyle(
+                                    color: Color.fromARGB(255, 28, 28, 28),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15),
+                              ),
+                              style: ElevatedButton.styleFrom(
+                                primary: Color.fromARGB(255, 222, 221, 221),
+                              ),
+                            ),
                             ElevatedButton(
                                 onPressed: () => login('c@c.com'),
-                                child: const Text("Ingresar con usuario C")),
+                                child: const Text("Ingresar con usuario C",
+                                style: TextStyle(
+                                    color: Color.fromARGB(255, 28, 28, 28),
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 15),
+                              ),
+                              style: ElevatedButton.styleFrom(
+                                primary: Color.fromARGB(255, 222, 221, 221),
+                              ),
+                            ),
                           ]),
                     ),
                   ),

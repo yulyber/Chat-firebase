@@ -15,6 +15,7 @@ Future<void> main() async {
   // aquí nos conectamos a los servicios de
   // firebase
   await Firebase.initializeApp(
+    //Si es por la web comentar, si es por emulador descomentar la linea 19
       name: 'com.example.f_chat_template',
 
       options: const FirebaseOptions(
