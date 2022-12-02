@@ -6,9 +6,9 @@ Video: https://youtu.be/B3SfN_NcBjk
 
 Funcional con Android y Web
 
-Eduardo Moreno
-Yuly Berbesi
-Barbara
+Eduardo Moreno,
+Yuly Berbesi,
+Barbara y
 Diana
 
 Solución:
