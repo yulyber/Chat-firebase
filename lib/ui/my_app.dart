@@ -16,10 +16,11 @@ class MyApp extends StatelessWidget {
 
     return GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Firebase demo',
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
+        title: 'Chat Real Time',
+        // theme: ThemeData(
+        //   primarySwatch: Colors.blue,
+        // ),
+        theme: ThemeData.dark(),
         home: const FirebaseCentral());
   }
 }

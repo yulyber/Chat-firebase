@@ -57,7 +57,7 @@ class _ChatPageState extends State<ChatPage> {
     return Card(
       margin: const EdgeInsets.all(4.0),
       // cambiamos el color dependiendo de quién mandó el usuario
-      color: uid == element.senderUid ? Colors.yellow[200] : Colors.grey[300],
+      color: uid == element.senderUid ? Color.fromARGB(255, 66, 66, 60) : Color.fromARGB(255, 182, 178, 178),
       child: ListTile(
         title: Text(
           element.msg,
