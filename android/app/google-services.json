@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1055219171079",
+    "project_id": "nrc2291-equipo02-chat-yb",
+    "storage_bucket": "nrc2291-equipo02-chat-yb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055219171079:android:f431625f023491594b0fa2",
+        "android_client_info": {
+          "package_name": "com.example.f_chat_template"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055219171079-jf2m5hiffcocqbakb23151e1hs27hmug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHrjVdle7e8nioKYke7SHarOv4djDLNsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055219171079-jf2m5hiffcocqbakb23151e1hs27hmug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
